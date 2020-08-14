@@ -6,9 +6,9 @@
 
 Swipeable bottom sheet implementation, that uses [react-swipeable-views](https://github.com/oliviertassinari/react-swipeable-views).
 
-![Alt text](assets/example-1.gif?raw=true "example-1")
-![Alt text](assets/example-2.gif?raw=true "example-2")
-![Alt text](assets/example-3.gif?raw=true "example-3")
+![Example-1](https://github.com/SergeyMyssak/swipeable-bottom-sheet/blob/master/assets/example-1.gif?raw=true "example-1")
+![Example-2](https://github.com/SergeyMyssak/swipeable-bottom-sheet/blob/master/assets/example-2.gif?raw=true "example-2")
+![Example-3](https://github.com/SergeyMyssak/swipeable-bottom-sheet/blob/master/assets/example-3.gif?raw=true "example-3")
 
 
 ## Installation
