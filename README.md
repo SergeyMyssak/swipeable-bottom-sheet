@@ -103,7 +103,11 @@ Classname applied on the body of the bottom sheet.
 Classname applied on the overlay of the bottom sheet.
 
 ##### `swipeableViewsProps` (`optional`): `SwipeableViews`
-Add `react-swipeable-views (v0.13.9)` props.
+Use `react-swipeable-views (v0.13.9)` props.
+
+<details><summary>See props</summary>
+<p>
+    
 ```js
 SwipeableViews.propTypes = {
   /**
@@ -261,6 +265,9 @@ SwipeableViews.propTypes = {
 };
 ```
 
+</p>
+</details> 
+
 <!-- badges -->
 [version-badge]: https://img.shields.io/npm/v/@sergeymyssak/swipeable-bottom-sheet.svg?style=flat-square
 [package]: https://www.npmjs.com/package/@sergeymyssak/swipeable-bottom-sheet
@@ -268,3 +275,5 @@ SwipeableViews.propTypes = {
 [downloads]: https://www.npmjs.com/package/@sergeymyssak/swipeable-bottom-sheet
 [license-badge]: https://img.shields.io/npm/l/@sergeymyssak/swipeable-bottom-sheet.svg?style=flat-square
 [license]: https://opensource.org/licenses/ISC
+
+
