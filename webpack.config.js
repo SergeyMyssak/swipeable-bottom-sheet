@@ -6,17 +6,17 @@ const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const libraryName = '@sergeymyssak/swipeable-bottom-sheet';
 
 const config = {
-  mode: 'development',
+  mode: 'production',
   entry: {
     min: path.join(__dirname, 'src/SwipeableBottomSheetContainer.tsx'),
   },
   output: {
-    globalObject: "typeof self !== 'undefined' ? self : this",
     path: path.join(__dirname, 'lib'),
     filename: '[name].js',
     library: libraryName,
     libraryTarget: 'umd',
     umdNamedDefine: true,
+    globalObject: 'this',
   },
   module: {
     rules: [
@@ -30,6 +30,7 @@ const config = {
             },
           },
           'css-loader',
+          'sass-loader',
         ],
       },
       {

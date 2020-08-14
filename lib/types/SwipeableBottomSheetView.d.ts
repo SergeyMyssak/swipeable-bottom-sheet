@@ -1,6 +1,6 @@
 import React from 'react';
 import SwipeableViews from 'react-swipeable-views';
-import './index.css';
+import './index.scss';
 interface IProps {
     children: JSX.Element | JSX.Element[];
     bodyRef: any;

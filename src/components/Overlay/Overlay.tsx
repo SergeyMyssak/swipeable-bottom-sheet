@@ -1,6 +1,6 @@
 import React, { FC, memo } from 'react';
 import classNames from 'classnames';
-import './index.css';
+import './index.scss';
 
 interface IProps {
   height: number;
