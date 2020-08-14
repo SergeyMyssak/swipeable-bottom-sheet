@@ -1,0 +1,80 @@
+{
+  "name": "@sergeymyssak/swipeable-bottom-sheet",
+  "version": "0.0.1",
+  "description": "Configurable swipeable bottom sheet component (react, nextjs)",
+  "main": "lib/min.js",
+  "types": "lib/types/SwipeableBottomSheetContainer.d.ts",
+  "peerDependencies": {
+    "react": "16.8.x || 17.x.x",
+    "react-dom": "16.8.x || 17.x.x"
+  },
+  "scripts": {
+    "lint": "eslint '*src/**/*.{js,ts}' --quiet --fix",
+    "start": "yarn lint && webpack"
+  },
+  "keywords": [
+    "react",
+    "nextjs",
+    "swipe",
+    "bottom-sheet",
+    "swipeable-bottom-sheet"
+  ],
+  "author": {
+    "name": "Sergey Myssak",
+    "email": "praeceptivus@gmail.com",
+    "url": "https://www.linkedin.com/in/sergeymyssak/"
+  },
+  "contributors": [
+    {
+      "name": "Andrey Myssak",
+      "email": "andreymyssak@gmail.com",
+      "url": "https://www.linkedin.com/in/andreymyssak/"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/SergeyMyssak/swipeable-bottom-sheet.git",
+    "type": "git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "homepage": "https://github.com/SergeyMyssak/swipeable-bottom-sheet",
+  "bugs": "https://github.com/SergeyMyssak/swipeable-bottom-sheet/issues",
+  "license": "ISC",
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint",
+      "pre-push": "yarn lint"
+    }
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "react-swipeable-views": "^0.13.9"
+  },
+  "devDependencies": {
+    "@types/eslint": "^7.2.0",
+    "@types/eslint-plugin-prettier": "^3.1.0",
+    "@types/prettier": "^2.0.2",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^3.7.0",
+    "@typescript-eslint/parser": "^3.7.0",
+    "css-loader": "^4.2.1",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.2.5",
+    "mini-css-extract-plugin": "^0.10.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "prettier": "^2.0.5",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.3",
+    "terser-webpack-plugin": "^4.1.0",
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}

@@ -1,0 +1,19 @@
+.swipeable-bs-root {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.swipeable-bs-root__body {
+    overflow: auto;
+    background-color: white;
+}
+
+.swipeable-bs-root__body--hidden {
+    overflow: hidden;
+}
+
+.swipeable-bs-root__body--none {
+    display: none;
+}
