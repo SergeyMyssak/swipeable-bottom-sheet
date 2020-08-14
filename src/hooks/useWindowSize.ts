@@ -17,11 +17,9 @@ const useWindowSize = ({ height, handleHeight }: IProps): void => {
   });
 
   useEffect(() => {
-    if (!isClient) {
-      return;
-    }
+    if (!isClient) return;
 
-    const handleResize = () => {
+    const handleResize = (): void => {
       const { height: windowHeight } = getSize();
 
       if (windowHeight && windowHeight !== height) {
