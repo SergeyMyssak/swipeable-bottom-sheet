@@ -1,6 +1,6 @@
 {
   "name": "@sergeymyssak/swipeable-bottom-sheet",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Configurable swipeable bottom sheet component (react, nextjs)",
   "main": "lib/min.js",
   "types": "lib/types/SwipeableBottomSheetContainer.d.ts",
