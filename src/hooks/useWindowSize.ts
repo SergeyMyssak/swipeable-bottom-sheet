@@ -5,22 +5,10 @@ interface IProps {
   handleHeight: (data: number) => void;
 }
 
-interface IGetSize {
-  height?: number;
-}
-
 const useWindowSize = ({ height, handleHeight }: IProps): void => {
-  const isClient = typeof window === 'object';
-
-  const getSize = (): IGetSize => ({
-    height: isClient ? window.innerHeight : undefined,
-  });
-
   useEffect(() => {
-    if (!isClient) return;
-
     const handleResize = (): void => {
-      const { height: windowHeight } = getSize();
+      const { innerHeight: windowHeight } = window;
 
       if (windowHeight && windowHeight !== height) {
         handleHeight(windowHeight);

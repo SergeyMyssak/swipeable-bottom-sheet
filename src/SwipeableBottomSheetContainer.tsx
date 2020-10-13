@@ -61,7 +61,7 @@ const SwipeableBottomSheet: FC<IProps> = ({
     if (!isOpen && isScrollTopOnClose && !isFullyHiddenWhenClosed) {
       bodyRef?.current?.scrollTo(0, 0);
     }
-  }, [isOpen, isScrollTopOnClose, isFullyHiddenWhenClosed]);
+  }, [bodyRef, isOpen, isScrollTopOnClose, isFullyHiddenWhenClosed]);
 
   const handleChangeIndex = useCallback(
     (index: number) => onChange(!!index),
